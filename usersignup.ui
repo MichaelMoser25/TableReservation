@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>usersignup</class>
+ <widget class="QWidget" name="usersignup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>492</width>
+    <height>389</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>220</y>
+     <width>311</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    border: 2px solid #1B4965;          /* Border color and thickness */
+    border-radius: 10px;                /* Rounded corners */
+    padding: 10px;                      /* Padding inside the button */
+    background-color: rgb(20, 38, 203);         /* Background color */
+	color: rgb(20, 38, 203);
+    color: white;                       /* Text color */
+    font-size: 16px;                    /* Font size */
+}</string>
+      </property>
+      <property name="text">
+       <string>Log in</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    border: 2px solid #1B4965;          /* Border color and thickness */
+    border-radius: 10px;                /* Rounded corners */
+    padding: 10px;                      /* Padding inside the button */
+    background-color: rgb(20, 38, 203);         /* Background color */
+	color: rgb(20, 38, 203);
+    color: white;                       /* Text color */
+    font-size: 16px;                    /* Font size */
+}</string>
+      </property>
+      <property name="text">
+       <string>Create Account</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>60</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(20, 38, 203);
+font-size: 25px;
+</string>
+   </property>
+   <property name="text">
+    <string>Create an Account</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>100</y>
+     <width>311</width>
+     <height>119</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="usernameEnter">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    border: 1px solid #1B4965;          /* Border color and thickness */
+    border-radius: 10px;                /* Rounded corners */
+    padding: 5px;                      /* Padding inside the button */
+    background-color: white;         /* Background color */
+    color: black;                       /* Text color */
+    font-size: 16px;                    /* Font size */
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Username</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="passwordEnter">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    border: 1px solid #1B4965;          /* Border color and thickness */
+    border-radius: 10px;                /* Rounded corners */
+    padding: 5px;                      /* Padding inside the button */
+    background-color: white;         /* Background color */
+    color: black;                       /* Text color */
+    font-size: 16px;                    /* Font size */
+}</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::EchoMode::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Password</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="phoneEnter">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    border: 1px solid #1B4965;          /* Border color and thickness */
+    border-radius: 10px;                /* Rounded corners */
+    padding: 5px;                      /* Padding inside the button */
+    background-color: white;         /* Background color */
+    color: black;                       /* Text color */
+    font-size: 16px;                    /* Font size */
+}</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::EchoMode::Normal</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Phone Number</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLineEdit" name="codeEnter">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>350</y>
+     <width>175</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    border: 1px solid #1B4965;          /* Border color and thickness */
+    border-radius: 10px;                /* Rounded corners */
+    padding: 5px;                      /* Padding inside the button */
+    background-color: white;         /* Background color */
+    color: black;                       /* Text color */
+    font-size: 16px;                    /* Font size */
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Manager Code</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

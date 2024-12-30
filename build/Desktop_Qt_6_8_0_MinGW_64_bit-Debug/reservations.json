@@ -1,0 +1,122 @@
+{
+    "Table1": {
+        "customerName": "",
+        "isReserved": true,
+        "reservationTime": "2024-11-25T11:00:00",
+        "reservedTimes": [
+        ],
+        "seats": 4
+    },
+    "Table10": {
+        "customerName": "",
+        "isReserved": false,
+        "reservationTime": "",
+        "reservedTimes": [
+        ],
+        "seats": 4
+    },
+    "Table11": {
+        "customerName": "",
+        "isReserved": false,
+        "reservationTime": "",
+        "reservedTimes": [
+        ],
+        "seats": 4
+    },
+    "Table12": {
+        "customerName": "",
+        "isReserved": false,
+        "reservationTime": "",
+        "reservedTimes": [
+        ],
+        "seats": 4
+    },
+    "Table13": {
+        "customerName": "",
+        "isReserved": true,
+        "reservationTime": "2024-11-25T11:00:00",
+        "reservedTimes": [
+        ],
+        "seats": 8
+    },
+    "Table14": {
+        "customerName": "",
+        "isReserved": true,
+        "reservationTime": "2024-11-25T11:00:00",
+        "reservedTimes": [
+            "2024-11-25T11:00:00"
+        ],
+        "seats": 8
+    },
+    "Table2": {
+        "customerName": "",
+        "isReserved": true,
+        "reservationTime": "2024-11-24T16:00:00",
+        "reservedTimes": [
+            "2024-11-23T17:30:00",
+            "2024-11-23T19:00:00",
+            "2024-11-23T18:00:00"
+        ],
+        "seats": 4
+    },
+    "Table3": {
+        "customerName": "",
+        "isReserved": false,
+        "reservationTime": "",
+        "reservedTimes": [
+        ],
+        "seats": 4
+    },
+    "Table4": {
+        "customerName": "",
+        "isReserved": false,
+        "reservationTime": "",
+        "reservedTimes": [
+        ],
+        "seats": 4
+    },
+    "Table5": {
+        "customerName": "",
+        "isReserved": true,
+        "reservationTime": "2024-11-25T11:30:00",
+        "reservedTimes": [
+            "2024-11-23T18:00:00",
+            "2024-11-25T11:00:00",
+            "2024-11-25T11:30:00"
+        ],
+        "seats": 4
+    },
+    "Table6": {
+        "customerName": "",
+        "isReserved": true,
+        "reservationTime": "2024-11-25T11:30:00",
+        "reservedTimes": [
+            "2024-11-25T11:30:00"
+        ],
+        "seats": 4
+    },
+    "Table7": {
+        "customerName": "",
+        "isReserved": false,
+        "reservationTime": "",
+        "reservedTimes": [
+        ],
+        "seats": 4
+    },
+    "Table8": {
+        "customerName": "",
+        "isReserved": false,
+        "reservationTime": "",
+        "reservedTimes": [
+        ],
+        "seats": 4
+    },
+    "Table9": {
+        "customerName": "",
+        "isReserved": false,
+        "reservationTime": "",
+        "reservedTimes": [
+        ],
+        "seats": 4
+    }
+}

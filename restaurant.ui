@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Restaurant</class>
+ <widget class="QWidget" name="Restaurant">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1168</width>
+    <height>772</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Restaurant</string>
+  </property>
+  <widget class="QPushButton" name="Table1">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>200</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Table1</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Table1_list">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>440</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Confirm1">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>500</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reserve</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Cancel1">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>250</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel Reservation</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="back_select">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>380</y>
+     <width>221</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(56, 56, 56);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="reserve_label">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>400</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Make your reservation</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="Table1_graphics">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>180</y>
+     <width>253</width>
+     <height>143</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(193, 193, 193);</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="seat">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>210</y>
+     <width>81</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background-color: transparent;</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="seat2">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>210</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background-color: transparent;</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="seat3">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>100</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background-color: transparent;
+border-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="seat4">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>330</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background-color: transparent;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_logout">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>30</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="manager_label">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>50</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>You are in manager mode</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="customer_label">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>60</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>You are in customer mode</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="availabilityList">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>250</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="viewMode">
+    <enum>QListView::ViewMode::ListMode</enum>
+   </property>
+   <property name="selectionRectVisible">
+    <bool>false</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string>11:00am</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>12:00pm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1:00pm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2:00pm</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <zorder>seat4</zorder>
+  <zorder>Table1_graphics</zorder>
+  <zorder>Table1</zorder>
+  <zorder>Cancel1</zorder>
+  <zorder>seat</zorder>
+  <zorder>seat2</zorder>
+  <zorder>seat3</zorder>
+  <zorder>back_select</zorder>
+  <zorder>Table1_list</zorder>
+  <zorder>Confirm1</zorder>
+  <zorder>reserve_label</zorder>
+  <zorder>pushButton_logout</zorder>
+  <zorder>manager_label</zorder>
+  <zorder>customer_label</zorder>
+  <zorder>availabilityList</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
